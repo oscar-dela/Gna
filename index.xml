@@ -46,16 +46,9 @@
 &lt;p>在今年以前，Interactive Brokers的可以直接綁定ACH，所以大致上的流程跟TD一樣。&lt;/p>
 &lt;p>但是今年開始似乎不開放給券商的Checking Account使用傳統的ACH認證方式。&lt;/p>
 &lt;p>&lt;figure
-class="gallery-image"
-style="
-flex-grow: 135;
-flex-basis: 324px"
 >
-&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib.jpg" data-size="769x569">
-&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib.jpg"
-width="769"
-height="569"
-srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib_hu5d4d4af13a53f9dee6df2227e73445ae_96902_480x0_resize_q75_box.jpg 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib_hu5d4d4af13a53f9dee6df2227e73445ae_96902_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://blog.bifro.net/cannot_ach_ib.jpg" >
+&lt;img src="https://blog.bifro.net/cannot_ach_ib.jpg"
 loading="lazy"
 alt="Cannot Use ACH in IB">
 &lt;/a>
@@ -68,11 +61,11 @@ style="
 flex-grow: 192;
 flex-basis: 461px"
 >
-&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit.png" data-size="1417x737">
-&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit.png"
+&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit.jpeg" data-size="1417x737">
+&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit.jpeg"
 width="1417"
 height="737"
-srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit_hud138a7915ce2b99d9f106cb8fe55fa90_119613_480x0_resize_box_3.png 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit_hud138a7915ce2b99d9f106cb8fe55fa90_119613_1024x0_resize_box_3.png 1024w"
+srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit_hue0d4fc5326629a94f1ea3f8b72ad7ffa_105453_480x0_resize_q75_box.jpeg 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit_hue0d4fc5326629a94f1ea3f8b72ad7ffa_105453_1024x0_resize_q75_box.jpeg 1024w"
 loading="lazy"
 alt="Direct Deposit and Debit">
 &lt;/a>
@@ -87,15 +80,15 @@ style="
 flex-grow: 168;
 flex-basis: 405px"
 >
-&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1.png" data-size="1143x677">
-&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1.png"
+&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1.jpeg" data-size="1143x677">
+&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1.jpeg"
 width="1143"
 height="677"
-srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1_hu730cdbd27010590537037f2be8bcca3b_130296_480x0_resize_box_3.png 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1_hu730cdbd27010590537037f2be8bcca3b_130296_1024x0_resize_box_3.png 1024w"
+srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1_hu839e7dcc4e98ee6a1aba767b09979b79_135646_480x0_resize_q75_box.jpeg 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1_hu839e7dcc4e98ee6a1aba767b09979b79_135646_1024x0_resize_q75_box.jpeg 1024w"
 loading="lazy"
-alt="cs_setup_ach_1.png">
+alt="cs_setup_ach_1.jpeg">
 &lt;/a>
-&lt;figcaption>cs_setup_ach_1.png&lt;/figcaption>
+&lt;figcaption>cs_setup_ach_1.jpeg&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>在選取銀行的畫面上，隨便輸入幾個字&lt;/p>
 &lt;p>&lt;figure
@@ -104,15 +97,15 @@ style="
 flex-grow: 160;
 flex-basis: 384px"
 >
-&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2.png" data-size="1192x744">
-&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2.png"
+&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2.jpeg" data-size="1192x744">
+&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2.jpeg"
 width="1192"
 height="744"
-srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2_hub88f5f86a5ba05a64161bdf0bd068304_119104_480x0_resize_box_3.png 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2_hub88f5f86a5ba05a64161bdf0bd068304_119104_1024x0_resize_box_3.png 1024w"
+srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2_hue76e0e3cd12315448fd3f7ffc6ece166_122432_480x0_resize_q75_box.jpeg 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2_hue76e0e3cd12315448fd3f7ffc6ece166_122432_1024x0_resize_q75_box.jpeg 1024w"
 loading="lazy"
-alt="cs_setup_ach_2.png">
+alt="cs_setup_ach_2.jpeg">
 &lt;/a>
-&lt;figcaption>cs_setup_ach_2.png&lt;/figcaption>
+&lt;figcaption>cs_setup_ach_2.jpeg&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>會看到&lt;code>Enter Account Number&lt;/code>的按鈕&lt;/p>
 &lt;p>&lt;figure
@@ -121,15 +114,15 @@ style="
 flex-grow: 191;
 flex-basis: 459px"
 >
-&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3.png" data-size="1179x616">
-&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3.png"
+&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3.jpeg" data-size="1179x616">
+&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3.jpeg"
 width="1179"
 height="616"
-srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3_hu95f41e7a8a916a67f3fae278c41a1c40_111227_480x0_resize_box_3.png 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3_hu95f41e7a8a916a67f3fae278c41a1c40_111227_1024x0_resize_box_3.png 1024w"
+srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3_hu8cff84d628ae04fe3e3d419ab02c701d_108997_480x0_resize_q75_box.jpeg 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3_hu8cff84d628ae04fe3e3d419ab02c701d_108997_1024x0_resize_q75_box.jpeg 1024w"
 loading="lazy"
-alt="cs_setup_ach_3.png">
+alt="cs_setup_ach_3.jpeg">
 &lt;/a>
-&lt;figcaption>cs_setup_ach_3.png&lt;/figcaption>
+&lt;figcaption>cs_setup_ach_3.jpeg&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>輸入IB拿到的&lt;strong>Routing number&lt;/strong>跟&lt;strong>Account number&lt;/strong>&lt;/p>
 &lt;p>&lt;figure
@@ -138,15 +131,15 @@ style="
 flex-grow: 149;
 flex-basis: 359px"
 >
-&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4.png" data-size="1192x795">
-&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4.png"
+&lt;a href="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4.jpeg" data-size="1192x795">
+&lt;img src="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4.jpeg"
 width="1192"
 height="795"
-srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4_hu909b33ae38723cc0313e39d8f03d7a09_122316_480x0_resize_box_3.png 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4_hu909b33ae38723cc0313e39d8f03d7a09_122316_1024x0_resize_box_3.png 1024w"
+srcset="https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4_huec943b2fbc9697104a639bdcf87b59df_105062_480x0_resize_q75_box.jpeg 480w, https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4_huec943b2fbc9697104a639bdcf87b59df_105062_1024x0_resize_q75_box.jpeg 1024w"
 loading="lazy"
-alt="cs_setup_ach_4.png">
+alt="cs_setup_ach_4.jpeg">
 &lt;/a>
-&lt;figcaption>cs_setup_ach_4.png&lt;/figcaption>
+&lt;figcaption>cs_setup_ach_4.jpeg&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>Done.&lt;/p>
 &lt;p>接下來的幾天IB會收到兩筆很小的金額 (通常是0.xx美元)，在CS這邊回覆該金額後就設定完成了。&lt;/p></description></item></channel></rss>
