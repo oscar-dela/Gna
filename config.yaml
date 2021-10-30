@@ -1,8 +1,8 @@
-baseurl: https://oscar-dela.github.io/
+baseurl: https://blog.bifro.net/
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: 睡熊隨筆
+title: 貝法爾隨筆
 
 # Change it to your Disqus shortname before using
 disqusShortname:
@@ -183,6 +183,7 @@ menu:
           weight: -50
           params:
               newTab: false
+              icon: brand-github
     
     # social:
     #     - identifier: github
