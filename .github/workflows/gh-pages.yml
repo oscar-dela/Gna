@@ -20,7 +20,9 @@ jobs:
           template: template/config.yaml.j2
           output_file: config.yaml
           strict: true
-
+        env:
+          HOST: blog.bifro.net
+          
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
