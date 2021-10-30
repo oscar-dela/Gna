@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://oscar-dela.github.io/gna/
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
