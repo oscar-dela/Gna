@@ -172,14 +172,14 @@ menu:
     main:
         - identifier: home
           name: Home
-          url: /gna
+          url: /
           weight: -150
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
         - identifier: about
           name: About
-          url: /gna/about
+          url: /about
           weight: -50
           params:
               newTab: false
