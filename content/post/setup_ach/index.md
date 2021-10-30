@@ -70,7 +70,7 @@ From [Wiki](https://en.wikipedia.org/wiki/Automated_clearing_house):
 
 但有發現IB也有Checking Account了，所以改成**從CS發動資金移轉**也可以。
 
-![Direct Deposit and Debit](direct_deposit_debit.png)
+![Direct Deposit and Debit](direct_deposit_debit.jpeg)
 
 登入IB後點選這個選項，接下來就一路照著指示走到最後，也一樣會拿到**Routing number**跟**Account number**
 
@@ -78,19 +78,19 @@ From [Wiki](https://en.wikipedia.org/wiki/Automated_clearing_house):
 
 先到 `Account > Transfer & Payment > External Accounts`，點選Link。
 
-![cs_setup_ach_1.png](cs_setup_ach_1.png)
+![cs_setup_ach_1.jpeg](cs_setup_ach_1.jpeg)
 
 在選取銀行的畫面上，隨便輸入幾個字
 
-![cs_setup_ach_2.png](cs_setup_ach_2.png)
+![cs_setup_ach_2.jpeg](cs_setup_ach_2.jpeg)
 
 會看到`Enter Account Number`的按鈕
 
-![cs_setup_ach_3.png](cs_setup_ach_3.png)
+![cs_setup_ach_3.jpeg](cs_setup_ach_3.jpeg)
 
 輸入IB拿到的**Routing number**跟**Account number**
 
-![cs_setup_ach_4.png](cs_setup_ach_4.png)
+![cs_setup_ach_4.jpeg](cs_setup_ach_4.jpeg)
 
 Done.
 
