@@ -56,16 +56,6 @@ params:
     comments:
         enabled: false
 
-        provider: gitalk
-
-        gitalk:
-            owner: oscar-dela
-            admin: 
-            - oscar-dela 
-            repo: https://github.com/oscar-dela/oscar-dela.github.io
-            clientID: {{ env['BLOG_COMMENT_CLIENT_ID'] }}
-            clientSecret: {{ env['BLOG_COMMENT_CLIENT_SECRET'] }}
-
     widgets:
         enabled:
             - search
