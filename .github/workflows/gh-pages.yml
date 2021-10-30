@@ -22,7 +22,7 @@ jobs:
           strict: true
         env:
           HOST: blog.bifro.net
-          
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -31,7 +31,15 @@ jobs:
 
       - name: Build
         run: hugo --gc --minify
-
+      
+      - name: Create CNAME file 
+        with: 
+          template: template/CNAME
+          output_file: public/CNAME
+          strict: true 
+        env:
+          HOST: blog.bifro.net
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
