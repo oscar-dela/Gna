@@ -1,4 +1,6 @@
-baseurl: https://blog.bifro.net/
+# Prd file in template/config.yaml.j2
+baseurl: http://localhost
+
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
