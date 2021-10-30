@@ -1,4 +1,4 @@
-baseurl: https://oscar-dela.github.io/gna/
+baseurl: https://oscar-dela.github.io/
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
@@ -172,14 +172,14 @@ menu:
     main:
         - identifier: home
           name: Home
-          url: /
+          url: /gna
           weight: -150
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
         - identifier: about
           name: About
-          url: /about
+          url: /gna/about
           weight: -50
           params:
               newTab: false
