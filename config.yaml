@@ -1,6 +1,6 @@
 baseurl: https://example.com
 languageCode: zh-cn
-theme: stack
+theme: hugo-theme-stack
 paginate: 5
 title: 睡熊隨筆
 
@@ -41,9 +41,9 @@ params:
         emoji: zzZ
         subtitle: 程式 股市 旅行
         avatar:
-            enabled: true
+            enabled: false
             local: true
-            src: img/sleeping_bear.jpeg
+            src: img/avatar.png
 
     article:
         math: false

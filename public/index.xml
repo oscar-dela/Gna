@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>睡熊隨筆</title>
+        <link>https://example.com/</link>
+        <description>Recent content on 睡熊隨筆</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sat, 30 Oct 2021 12:36:26 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>[2021] Interactive Brokers &amp; Charles Schwab &amp; TD Ameritrade 設定 ACH</title>
+        <link>https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/</link>
+        <pubDate>Sat, 30 Oct 2021 12:36:26 +0800</pubDate>
+        
+        <guid>https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;玩美股的人玩了一陣子之後，可能都會有不止一家券商。但每家券商的優點又都不一樣，時間久了就有遷移資金的需求。&lt;/p&gt;
+&lt;p&gt;如果有在美國開戶，那透過該帳戶做轉帳可能是一個比較簡單的選擇。&lt;/p&gt;
+&lt;p&gt;但對於非美國籍的玩家來說，如果要透過&lt;strong&gt;電匯&lt;/strong&gt;去轉移，手續費很貴(NTD 800起跳)。&lt;/p&gt;
+&lt;p&gt;與之相比通常免手續費的ACH就會是一個比較划算的選擇。&lt;/p&gt;
+&lt;p&gt;不過以整個手續所花的時間來說，&lt;strong&gt;ACH最慢要3天&lt;/strong&gt;，但&lt;strong&gt;電匯大概是1天內&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;名詞解釋&#34;&gt;名詞解釋&lt;/h2&gt;
+&lt;h3 id=&#34;ach-automated-clearing-house&#34;&gt;ACH (Automated Clearing House)&lt;/h3&gt;
+&lt;p&gt;用一句話解釋：一個低手續費或是零手續費的小額轉帳機制。&lt;/p&gt;
+&lt;p&gt;From &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Automated_clearing_house&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wiki&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An automated clearing house (ACH) is a computer-based electronic network for processing transactions,usually domestic low value payments, between participating financial institutions. It may support both credit transfers and direct debits. The ACH system is designed to process batches of payments containing numerous transactions and charges fees low enough to encourage its use for low value payments.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;支票帳戶-checking-account&#34;&gt;支票帳戶 Checking Account&lt;/h3&gt;
+&lt;p&gt;在美國常見的帳戶類型有兩種&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;支票帳戶 (Checking Account)通常是拿來做&lt;strong&gt;日常使用&lt;/strong&gt;的帳戶
+&lt;ul&gt;
+&lt;li&gt;刷卡、轉帳、開支票&lt;/li&gt;
+&lt;li&gt;非常低或是沒有利息&lt;/li&gt;
+&lt;li&gt;轉帳次數限制比較高，或是沒有限制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;儲蓄帳戶 (Savings Account)，類似定存
+&lt;ul&gt;
+&lt;li&gt;存錢用&lt;/li&gt;
+&lt;li&gt;轉帳或是提款次數很低&lt;/li&gt;
+&lt;li&gt;利息通常高於Checking Account&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;目前Charles Schwab (嘉信)在開戶時可以申請支票，等同有個支票帳戶。&lt;/p&gt;
+&lt;p&gt;另方面Interactive broker也可以申請Checking Account，這邊稍後會提到。&lt;/p&gt;
+&lt;h2 id=&#34;如何設定&#34;&gt;如何設定&lt;/h2&gt;
+&lt;h3 id=&#34;charles-schwab--td-ameritrade&#34;&gt;Charles Schwab &amp;amp; TD Ameritrade&lt;/h3&gt;
+&lt;p&gt;因為是CS有Checking Account，所以會是&lt;strong&gt;從TD發動資金移轉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;拿到嘉信支票後，會在支票底部看到一行數字，分成3塊&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[Routing number] [Account number] [Seq. number]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接下來登入 TD Ameritrade的網站，點選 &lt;code&gt;我的帳戶 &amp;gt; 存款和轉帳&amp;gt; &amp;quot;帳戶/銀行綁定&amp;quot; &amp;gt; ACH &amp;gt; Connect now&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;把支票上面的第一部分跟第二部分填到對應的欄位，送出。&lt;/p&gt;
+&lt;p&gt;接下來的幾天Charles Schwab會收到兩筆很小的金額 (通常是0.xx美元)，在TD這邊回覆該金額後就設定完成了。&lt;/p&gt;
+&lt;h3 id=&#34;charles-schwab--interactive-broker&#34;&gt;Charles Schwab &amp;amp; Interactive Broker&lt;/h3&gt;
+&lt;p&gt;在今年以前，Interactive Brokers的可以直接綁定ACH，所以大致上的流程跟TD一樣。&lt;/p&gt;
+&lt;p&gt;但是今年開始似乎不開放給券商的Checking Account使用傳統的ACH認證方式。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 135; 
+			flex-basis: 324px&#34;
+	&gt;
+	&lt;a href=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib.jpg&#34; data-size=&#34;769x569&#34;&gt;
+		&lt;img src=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib.jpg&#34;
+			width=&#34;769&#34;
+			height=&#34;569&#34;
+			srcset=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib_hu5d4d4af13a53f9dee6df2227e73445ae_96902_480x0_resize_q75_box.jpg 480w, https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cannot_ach_ib_hu5d4d4af13a53f9dee6df2227e73445ae_96902_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Cannot Use ACH in IB&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Cannot Use ACH in IB&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;但有發現IB也有Checking Account了，所以改成&lt;strong&gt;從CS發動資金移轉&lt;/strong&gt;也可以。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 192; 
+			flex-basis: 461px&#34;
+	&gt;
+	&lt;a href=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit.png&#34; data-size=&#34;1417x737&#34;&gt;
+		&lt;img src=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit.png&#34;
+			width=&#34;1417&#34;
+			height=&#34;737&#34;
+			srcset=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit_hud138a7915ce2b99d9f106cb8fe55fa90_119613_480x0_resize_box_3.png 480w, https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/direct_deposit_debit_hud138a7915ce2b99d9f106cb8fe55fa90_119613_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Direct Deposit and Debit&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Direct Deposit and Debit&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;登入IB後點選這個選項，接下來就一路照著指示走到最後，也一樣會拿到&lt;strong&gt;Routing number&lt;/strong&gt;跟&lt;strong&gt;Account number&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;接下來登入Charles Schwab。&lt;/p&gt;
+&lt;p&gt;先到 &lt;code&gt;Account &amp;gt; Transfer &amp;amp; Payment &amp;gt; External Accounts&lt;/code&gt;，點選Link。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 168; 
+			flex-basis: 405px&#34;
+	&gt;
+	&lt;a href=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1.png&#34; data-size=&#34;1143x677&#34;&gt;
+		&lt;img src=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1.png&#34;
+			width=&#34;1143&#34;
+			height=&#34;677&#34;
+			srcset=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1_hu730cdbd27010590537037f2be8bcca3b_130296_480x0_resize_box_3.png 480w, https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_1_hu730cdbd27010590537037f2be8bcca3b_130296_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;cs_setup_ach_1.png&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;cs_setup_ach_1.png&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在選取銀行的畫面上，隨便輸入幾個字&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 160; 
+			flex-basis: 384px&#34;
+	&gt;
+	&lt;a href=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2.png&#34; data-size=&#34;1192x744&#34;&gt;
+		&lt;img src=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2.png&#34;
+			width=&#34;1192&#34;
+			height=&#34;744&#34;
+			srcset=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2_hub88f5f86a5ba05a64161bdf0bd068304_119104_480x0_resize_box_3.png 480w, https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_2_hub88f5f86a5ba05a64161bdf0bd068304_119104_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;cs_setup_ach_2.png&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;cs_setup_ach_2.png&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;會看到&lt;code&gt;Enter Account Number&lt;/code&gt;的按鈕&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 191; 
+			flex-basis: 459px&#34;
+	&gt;
+	&lt;a href=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3.png&#34; data-size=&#34;1179x616&#34;&gt;
+		&lt;img src=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3.png&#34;
+			width=&#34;1179&#34;
+			height=&#34;616&#34;
+			srcset=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3_hu95f41e7a8a916a67f3fae278c41a1c40_111227_480x0_resize_box_3.png 480w, https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_3_hu95f41e7a8a916a67f3fae278c41a1c40_111227_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;cs_setup_ach_3.png&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;cs_setup_ach_3.png&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;輸入IB拿到的&lt;strong&gt;Routing number&lt;/strong&gt;跟&lt;strong&gt;Account number&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 149; 
+			flex-basis: 359px&#34;
+	&gt;
+	&lt;a href=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4.png&#34; data-size=&#34;1192x795&#34;&gt;
+		&lt;img src=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4.png&#34;
+			width=&#34;1192&#34;
+			height=&#34;795&#34;
+			srcset=&#34;https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4_hu909b33ae38723cc0313e39d8f03d7a09_122316_480x0_resize_box_3.png 480w, https://example.com/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/cs_setup_ach_4_hu909b33ae38723cc0313e39d8f03d7a09_122316_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;cs_setup_ach_4.png&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;cs_setup_ach_4.png&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Done.&lt;/p&gt;
+&lt;p&gt;接下來的幾天IB會收到兩筆很小的金額 (通常是0.xx美元)，在CS這邊回覆該金額後就設定完成了。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
