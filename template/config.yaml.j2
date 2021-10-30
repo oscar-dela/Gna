@@ -59,11 +59,12 @@ params:
         provider: gitalk
 
         gitalk:
-            owner: 
+            owner: oscar-dela
             admin: 
-            repo: 
-            clientID: 
-            clientSecret:
+            - oscar-dela 
+            repo: https://github.com/oscar-dela/oscar-dela.github.io
+            clientID: {{ env['BLOG_COMMENT_CLIENT_ID'] }}
+            clientSecret: {{ env['BLOG_COMMENT_CLIENT_SECRET'] }}
 
     widgets:
         enabled:
@@ -116,26 +117,14 @@ menu:
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
+              icon: home
         - identifier: about
           name: About
           url: /about
           weight: -50
           params:
               newTab: false
-              icon: brand-github
-    
-    # social:
-    #     - identifier: github
-    #       name: GitHub
-    #       url: https://github.com/CaiJimmy/hugo-theme-stack
-    #       params:
-    #         icon: brand-github
-            
-        # - identifier: twitter
-          # name: Twitter
-          # url: https://twitter.com
-          # params:
-            # icon: brand-twitter
+              icon: user
 
 related:
     includeNewer: true
