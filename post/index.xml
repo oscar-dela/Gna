@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 貝法爾隨筆</title><link>https://blog.bifro.net/post/</link><description>Recent content in Posts on 貝法爾隨筆</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 30 Oct 2021 12:36:26 +0800</lastBuildDate><atom:link href="https://blog.bifro.net/post/index.xml" rel="self" type="application/rss+xml"/><item><title>[2021] Interactive Brokers &amp; Charles Schwab &amp; TD Ameritrade 設定 ACH</title><link>https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/</link><pubDate>Sat, 30 Oct 2021 12:36:26 +0800</pubDate><guid>https://blog.bifro.net/p/2021-interactive-brokers-charles-schwab-td-ameritrade-%E8%A8%AD%E5%AE%9A-ach/</guid><description>前言 玩美股的人玩了一陣子之後，可能都會有不止一家券商。但每家券商的優點又都不一樣，時間久了就有遷移資金的需求。
+如果有在美國開戶，那透過該帳戶做轉帳可能是一個比較簡單的選擇。
+但對於非美國籍的玩家來說，如果要透過電匯去轉移，手續費很貴(NTD 800起跳)。
+與之相比通常免手續費的ACH就會是一個比較划算的選擇。
+不過以整個手續所花的時間來說，ACH最慢要3天，但電匯大概是1天內。
+名詞解釋 ACH (Automated Clearing House) 用一句話解釋：一個低手續費或是零手續費的小額轉帳機制。
+From Wiki:
+An automated clearing house (ACH) is a computer-based electronic network for processing transactions,usually domestic low value payments, between participating financial institutions. It may support both credit transfers and direct debits. The ACH system is designed to process batches of payments containing numerous transactions and charges fees low enough to encourage its use for low value payments.</description></item></channel></rss>
