@@ -4,7 +4,7 @@ baseurl: http://localhost
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: 貝法爾隨筆
+title: 貝法爾之筆
 
 # Change it to your Disqus shortname before using
 disqusShortname:
