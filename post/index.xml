@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 貝法爾之筆</title><link>https://blog.bifro.net/post/</link><description>Recent content in Posts on 貝法爾之筆</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 22 Nov 2021 21:45:19 +0800</lastBuildDate><atom:link href="https://blog.bifro.net/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2021Q1 Inteview Software Engineer - Line Bank, Grab, ByteDance, Agoda</title><link>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</link><pubDate>Mon, 22 Nov 2021 21:45:19 +0800</pubDate><guid>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</guid><description>2021 Jan Line Bank - Sr. Java Engineer Work Location Unknown
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 貝法爾之筆</title><link>https://blog.bifro.net/post/</link><description>Recent content in Posts on 貝法爾之筆</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 22 Nov 2021 21:45:19 +0800</lastBuildDate><atom:link href="https://blog.bifro.net/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2021Q1 Inteview Software Engineer - AmazingTalker, IBM</title><link>https://blog.bifro.net/p/2021q1-inteview-software-engineer-amazingtalker-ibm/</link><pubDate>Mon, 22 Nov 2021 21:45:19 +0800</pubDate><guid>https://blog.bifro.net/p/2021q1-inteview-software-engineer-amazingtalker-ibm/</guid><description>2020 Oct AmazingTalker - Sr. SRE Work Location 新北產業園區（新莊）
+Conclusion Reject之後HR有打電話來問原因，主要是因為SRE的團隊太小，而且聽起來非常偏向operation，跟我個人目標有落差。但這間公司很棒，如果有興趣的人可以來試試看。
+Interview Process Stage 0 四題問答題
+Stage 1 RD Lead面試，根據Stage 0的答案問問題，探討技術(?)。整體面試很舒服
+Stage 2 CHRO 面試，看性向
+Offer Get but reject, NTD 150萬/Year
+IBM - Cloud Application Developer Work Location 南港
+Conclusion 跟IBM的HR講的內容完全不一樣。原本HR說不太需要on-site，主要著重開發asset，但實際上根本相反，主要是on-site，asset只是順便開發。
+第一關是技術關卡偏向隨便聊，想到什麼問什麼，沒有白板題。
+第二關的soft skill就不知道再問什麼。先用英文自我介紹，然後開始閒聊，問你之前在團隊裡面做了什麼事，會希望你講你做了什麼，針對團隊合作的部分感覺比較不重視。另外會一直挖你說你的Service服務過哪些公司。有種被窺探前公司隱私的感覺&amp;hellip;
+第三關Manager只是來閒聊的，沒啥重點。
+最傻眼的是沒有HR來跟你討論薪水，直接請你出去。
+另外需要寫前後端，但又不管Service的deployment，不懂找Cloud Application Developer要幹嘛
+整體面試感覺很糟糕&amp;hellip;
+Interview Process Stage 0 性向測驗
+Stage 1 Architect 面試 - 偏向技術，問你之前做過什麼專案 Engineer 面試 - Soft Skill(??)，英文自我介紹。 Manager 面試 - 不知道來幹嘛的。</description></item><item><title>2021Q1 Inteview Software Engineer - Line Bank, Grab, ByteDance, Agoda</title><link>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</link><pubDate>Mon, 22 Nov 2021 21:45:19 +0800</pubDate><guid>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</guid><description>2021 Jan Line Bank - Sr. Java Engineer Work Location Unknown
 Interview Process 在104上面投遞，過了一陣子後會寄給你一封線上codility，不過平台是韓國自己的，非常難用的平台。
 小道消息是，Line pay跟Line bank的題目一樣，但HR跟我說題目是用AI算出來的&amp;hellip;XD
 Stage 0 大概是五題，四題難度是 &amp;lt;= leetcode easy，甚至有的題目跟給大一寫得差不多難，算是這次看過最簡單的問題。只有一題graph大概是leetcode medium的難度。
@@ -15,22 +30,7 @@ Conclusion 超爛。
 Interview Process Stage 0 HR是新加坡的中國人。大概簡單介紹一下台北team，但內容跟實際情況有點偏頗xD 另外有說不用會寫golang。約了三個小時面試跟三位面試者面試。
 Stage 1 兩位面試者，第一位是白板題，難度大概是Medium。 第二位面試者說他要看會不會golang，所以就出了一題簡單的題目請我用go寫。
 第二位面試者非常的&amp;hellip; 誠實，他直接表示台北team非常的草創，而且很不穩定，直到去年七月才爭取到project能做。另外也有說grab內部沒有CD，也沒有做microservice，底層是開了一堆EC2來撐流量。聽起來是非常不可思議&amp;hellip;
-然後第二位面試者強烈鼓吹我去投新加坡本部的infra team，明示暗示我不適合台北team&amp;hellip;xD</description></item><item><title>2021Q1 Inteview Software Engineer@AmazingTalker/IBM</title><link>https://blog.bifro.net/p/2021q1-inteview-software-engineeramazingtalker/ibm/</link><pubDate>Mon, 22 Nov 2021 21:45:19 +0800</pubDate><guid>https://blog.bifro.net/p/2021q1-inteview-software-engineeramazingtalker/ibm/</guid><description>2020 Oct AmazingTalker - Sr. SRE Work Location 新北產業園區（新莊）
-Conclusion Reject之後HR有打電話來問原因，主要是因為SRE的團隊太小，而且聽起來非常偏向operation，跟我個人目標有落差。但這間公司很棒，如果有興趣的人可以來試試看。
-Interview Process Stage 0 四題問答題
-Stage 1 RD Lead面試，根據Stage 0的答案問問題，探討技術(?)。整體面試很舒服
-Stage 2 CHRO 面試，看性向
-Offer Get but reject, NTD 150萬/Year
-IBM - Cloud Application Developer Work Location 南港
-Conclusion 跟IBM的HR講的內容完全不一樣。原本HR說不太需要on-site，主要著重開發asset，但實際上根本相反，主要是on-site，asset只是順便開發。
-第一關是技術關卡偏向隨便聊，想到什麼問什麼，沒有白板題。
-第二關的soft skill就不知道再問什麼。先用英文自我介紹，然後開始閒聊，問你之前在團隊裡面做了什麼事，會希望你講你做了什麼，針對團隊合作的部分感覺比較不重視。另外會一直挖你說你的Service服務過哪些公司。有種被窺探前公司隱私的感覺&amp;hellip;
-第三關Manager只是來閒聊的，沒啥重點。
-最傻眼的是沒有HR來跟你討論薪水，直接請你出去。
-另外需要寫前後端，但又不管Service的deployment，不懂找Cloud Application Developer要幹嘛
-整體面試感覺很糟糕&amp;hellip;
-Interview Process Stage 0 性向測驗
-Stage 1 Architect 面試 - 偏向技術，問你之前做過什麼專案 Engineer 面試 - Soft Skill(??)，英文自我介紹。 Manager 面試 - 不知道來幹嘛的。</description></item><item><title>2021 Louis Jadot Beaujolais Villages Primeur (Non Filtre)</title><link>https://blog.bifro.net/p/2021-louis-jadot-beaujolais-villages-primeur-non-filtre/</link><pubDate>Mon, 22 Nov 2021 00:40:22 +0800</pubDate><guid>https://blog.bifro.net/p/2021-louis-jadot-beaujolais-villages-primeur-non-filtre/</guid><description>前言 又到了一年的尾聲。每年的11月是薄酒萊的季節，小時候對薄酒萊的印象就是7-11滿滿的廣告。
+然後第二位面試者強烈鼓吹我去投新加坡本部的infra team，明示暗示我不適合台北team&amp;hellip;xD</description></item><item><title>2021 Louis Jadot Beaujolais Villages Primeur (Non Filtre)</title><link>https://blog.bifro.net/p/2021-louis-jadot-beaujolais-villages-primeur-non-filtre/</link><pubDate>Mon, 22 Nov 2021 00:40:22 +0800</pubDate><guid>https://blog.bifro.net/p/2021-louis-jadot-beaujolais-villages-primeur-non-filtre/</guid><description>前言 又到了一年的尾聲。每年的11月是薄酒萊的季節，小時候對薄酒萊的印象就是7-11滿滿的廣告。
 今年剛好公司有人開薄酒萊的團，稍微做了下功課，就買了一瓶未過濾版的試試看。
 這次滿有趣的事是買酒還送爆米花，雖然很小一包就是了。
 價格 NTD 830/Bottle wine.jpg
