@@ -31,8 +31,7 @@ RD Lead面試，根據Stage 0的答案問問題，探討技術(?)。整體面試
 CHRO 面試，看性向
 
 #### Offer
-Get but reject, NTD 150萬/Year
-
+Get but reject
 
 ### IBM - Cloud Application Developer
 
