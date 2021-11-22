@@ -1,13 +1,14 @@
 ---
 title: "2021 Louis Jadot Beaujolais Villages Primeur (Non Filtre)"
 date: 2021-11-22T00:40:22+08:00
-draft: true
+draft: false
 tags:
 - 薄酒萊
 categories:
 - 紅酒筆記
 draft: false
 ---
+
 ## 前言
 
 又到了一年的尾聲。每年的11月是薄酒萊的季節，小時候對薄酒萊的印象就是7-11滿滿的廣告。
@@ -19,8 +20,7 @@ draft: false
 ## 價格
 
 NTD 830/Bottle
-
-![wine.jpeg](wine.jpeg)
+![wine.jpg](wine.jpg) 
 
 ## 準備
 
@@ -31,8 +31,7 @@ NTD 830/Bottle
 ### 酒杯
 
 一般的波爾多紅酒杯而已
-
-![cup.jpeg](cup.jpeg)
+![cup.jpg](cup.jpg) 
 
 ### 冰鎮
 
