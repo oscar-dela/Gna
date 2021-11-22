@@ -4,8 +4,9 @@ date: 2021-11-22T21:45:19+08:00
 draft: false
 tags:
 - Interview
-category:
+categories:
 - Job
+- Software Engineer
 ---
 
 ## 2021 Jan
