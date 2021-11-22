@@ -3,9 +3,9 @@ title: "2021 Louis Jadot Beaujolais Villages Primeur (Non Filtre)"
 date: 2021-11-22T00:40:22+08:00
 draft: false
 tags:
-- 薄酒萊
+- Beaujolais
 categories:
-- 紅酒筆記
+- Alcoholic 
 draft: false
 ---
 
