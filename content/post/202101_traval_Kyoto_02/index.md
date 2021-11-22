@@ -4,6 +4,7 @@ date: 2021-11-22T22:09:12+08:00
 draft: false
 tags:
 - 日本
+- 清酒
 categories:
 - Travel
 - Alcoholic
