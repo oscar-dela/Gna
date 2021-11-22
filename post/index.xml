@@ -3,7 +3,7 @@ Conclusion Reject之後HR有打電話來問原因，主要是因為SRE的團隊�
 Interview Process Stage 0 四題問答題
 Stage 1 RD Lead面試，根據Stage 0的答案問問題，探討技術(?)。整體面試很舒服
 Stage 2 CHRO 面試，看性向
-Offer Get but reject, NTD 150萬/Year
+Offer Get but reject
 IBM - Cloud Application Developer Work Location 南港
 Conclusion 跟IBM的HR講的內容完全不一樣。原本HR說不太需要on-site，主要著重開發asset，但實際上根本相反，主要是on-site，asset只是順便開發。
 第一關是技術關卡偏向隨便聊，想到什麼問什麼，沒有白板題。
@@ -13,7 +13,8 @@ Conclusion 跟IBM的HR講的內容完全不一樣。原本HR說不太需要on-si
 另外需要寫前後端，但又不管Service的deployment，不懂找Cloud Application Developer要幹嘛
 整體面試感覺很糟糕&amp;hellip;
 Interview Process Stage 0 性向測驗
-Stage 1 Architect 面試 - 偏向技術，問你之前做過什麼專案 Engineer 面試 - Soft Skill(??)，英文自我介紹。 Manager 面試 - 不知道來幹嘛的。</description></item><item><title>2021Q1 Inteview Software Engineer - Line Bank, Grab, ByteDance, Agoda</title><link>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</link><pubDate>Mon, 22 Nov 2021 21:45:19 +0800</pubDate><guid>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</guid><description>2021 Jan Line Bank - Sr. Java Engineer Work Location Unknown
+Stage 1 Architect 面試 - 偏向技術，問你之前做過什麼專案 Engineer 面試 - Soft Skill(??)，英文自我介紹。 Manager 面試 - 不知道來幹嘛的。
+Offer Not select</description></item><item><title>2021Q1 Inteview Software Engineer - Line Bank, Grab, ByteDance, Agoda</title><link>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</link><pubDate>Mon, 22 Nov 2021 21:45:19 +0800</pubDate><guid>https://blog.bifro.net/p/2021q1-inteview-software-engineer-line-bank-grab-bytedance-agoda/</guid><description>2021 Jan Line Bank - Sr. Java Engineer Work Location Unknown
 Interview Process 在104上面投遞，過了一陣子後會寄給你一封線上codility，不過平台是韓國自己的，非常難用的平台。
 小道消息是，Line pay跟Line bank的題目一樣，但HR跟我說題目是用AI算出來的&amp;hellip;XD
 Stage 0 大概是五題，四題難度是 &amp;lt;= leetcode easy，甚至有的題目跟給大一寫得差不多難，算是這次看過最簡單的問題。只有一題graph大概是leetcode medium的難度。
